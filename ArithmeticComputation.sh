@@ -31,6 +31,7 @@ done
 echo "The computation results array is"
 echo ${array[@]}
 
+size=${#array[@]}
 for((i=0; i<size-1; i++))
 do
    swapped=0
@@ -50,5 +51,5 @@ do
       fi
 done
 
-echo "The Computation results sorted in descending order are:"
+echo "The Computation results sorted in Ascending order are:"
 echo ${array[@]}
